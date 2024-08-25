@@ -2,21 +2,21 @@ package POO.Hassociacao.dominio;
 
 public class Escola {
     private String nome;
-    private Aluno[] aluno;
+    private Aluno[] alunos;
 
     public Escola(String nome) {
-        this.nome = nome;
+        setNome(nome);
     }
 
     public Escola(String nome, Aluno[] aluno) {
         this(nome);
-        this.aluno = aluno;
+        setAlunos(aluno);
     }
 
     public void imprime() {
-        if (aluno == null) return;
+        if (alunos == null) return;
         System.out.println("Nome: " + nome);
-        for (Aluno alunos : aluno) {
+        for (Aluno alunos : alunos) {
             System.out.println("Aluno: " + alunos.getNome());
 
         }
@@ -31,11 +31,11 @@ public class Escola {
         this.nome = nome;
     }
 
-    public Aluno[] getAluno() {
-        return aluno;
+    public Aluno[] getAlunos() {
+        return alunos;
     }
 
-    public void setAluno(Aluno[] aluno) {
-        this.aluno = aluno;
+    public void setAlunos(Aluno[] alunos) {
+        this.alunos = alunos;
     }
 }

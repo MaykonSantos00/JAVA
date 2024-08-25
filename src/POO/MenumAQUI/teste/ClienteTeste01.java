@@ -1,8 +1,8 @@
-package POO.Menum.teste;
+package POO.MenumAQUI.teste;
 
-import POO.Menum.dominio.Cliente;
-import POO.Menum.dominio.MetodoPagamento;
-import POO.Menum.dominio.TipoCliente;
+import POO.MenumAQUI.dominio.Cliente;
+import POO.MenumAQUI.dominio.MetodoPagamento;
+import POO.MenumAQUI.dominio.TipoCliente;
 
 public class ClienteTeste01 {
     public static void main(String[] args) {

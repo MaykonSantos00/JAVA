@@ -3,13 +3,13 @@ package POO.Ksobreescrita.dominio;
 public class Anime {
     private String nome;
 
+    public Anime(String nome) {
+        this.nome = nome;
+    }
+
     @Override
     public String toString() {
         return nome = "nome: " + nome;
-    }
-
-    public Anime(String nome) {
-        this.nome = nome;
     }
 
     public String getNome() {

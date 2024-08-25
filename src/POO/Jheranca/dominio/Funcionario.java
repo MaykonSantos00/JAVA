@@ -23,10 +23,12 @@ public class Funcionario extends Pessoa {
     public void imprime() {
         super.imprime();
         System.out.println("Salario: " + this.salario);
+        System.out.println("Impressão de Herança, que o funcionario sobre escreve");
     }
 
     public void imprime2() {
-        System.out.println("Meu nome é " + this.nome + " e recebo " + this.salario);
+        System.out.println("Meu nome é " + getNome() + " e recebo " + getSalario());
+        System.out.println("Impressão de Funcionario");
     }
 
     public double getSalario() {

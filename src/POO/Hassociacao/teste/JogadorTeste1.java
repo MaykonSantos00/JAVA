@@ -8,6 +8,7 @@ public class JogadorTeste1 {
         Jogador j2 = new Jogador("Romário");
         Jogador j3 = new Jogador("Zico");
         Jogador[] jogadores = {j1, j2, j3};
+
         for (Jogador j : jogadores) {
             j.imprime();
         }

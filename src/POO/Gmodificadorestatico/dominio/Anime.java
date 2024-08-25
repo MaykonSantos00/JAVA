@@ -30,20 +30,23 @@ public class Anime {
     }
 
 
-    public Anime(String nome) {
-        this.nome = nome;
+    public Anime() {
+        System.out.println("Dentro do construtor sem parametro");
     }
 
-    public Anime() {
+    public Anime(String nome) {
+        setNome(nome);
+        System.out.println("Dentro do construtor com parametro 1");
     }
 
     public Anime(String nome, int... ep) {
-        this.nome = nome;
-        Anime.ep = ep;
+        setNome(nome);
+        setEp(ep);
+        System.out.println("Dentro do construtor com parametro 2");
     }
 
     public void imprime() {
-        System.out.println(this.nome);
+        System.out.println(getNome());
         for (int i : ep) {
             System.out.println(i);
         }
@@ -59,5 +62,9 @@ public class Anime {
 
     public int[] getEp() {
         return ep;
+    }
+
+    public static void setEp(int[] ep) {
+        Anime.ep = ep;
     }
 }

@@ -1,4 +1,4 @@
-package POO.Menum.dominio;
+package POO.MenumAQUI.dominio;
 
 public enum TipoCliente {
     PESSOA_FISICA(1, "Pessoa Fisica"),

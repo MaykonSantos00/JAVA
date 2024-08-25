@@ -2,22 +2,23 @@ package POO.Hassociacao.dominio;
 
 public class Time {
     private String nome;
-    private Jogador[] jogador;
+    private Jogador[] jogadores;
 
     public Time(String nome) {
-        this.nome = nome;
+        setNome(nome);
     }
 
-    public Time(String nome, Jogador[] jogador) {
+    public Time(String nome, Jogador[] jogadores) {
         this(nome);
-        this.jogador = jogador;
+        setJogadores(jogadores);
     }
 
     public void imprime() {
-        if (jogador == null) return;
-        System.out.println("Time: " + this.nome);
-        for (Jogador jogador1 : jogador) {
-            System.out.println("Jogador: " + jogador1.getNome());
+        if (jogadores == null) return;
+        System.out.println("Nome: " + getNome());
+        System.out.println("Jogadores: ");
+        for (Jogador jogador : jogadores) {
+            System.out.println("Nome: " + jogador.getNome());
         }
 
     }
@@ -30,11 +31,11 @@ public class Time {
         this.nome = nome;
     }
 
-    public Jogador[] getJogador() {
-        return jogador;
+    public Jogador[] getJogadores() {
+        return jogadores;
     }
 
-    public void setJogador(Jogador[] jogador) {
-        this.jogador = jogador;
+    public void setJogadores(Jogador[] jogadores) {
+        this.jogadores = jogadores;
     }
 }

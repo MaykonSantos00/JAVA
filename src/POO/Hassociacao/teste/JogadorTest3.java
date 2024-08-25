@@ -8,8 +8,9 @@ public class JogadorTest3 {
         Jogador jogador1 = new Jogador("Ronaldinho");
         Jogador jogador2 = new Jogador("Eto");
         Jogador[] jogadores = {jogador1, jogador2};
+
         Time time = new Time("Barcelona");
-        time.setJogador(jogadores);
+        time.setJogadores(jogadores);
 
         System.out.println("-- Jogador1 --");
         jogador1.setTime(time);

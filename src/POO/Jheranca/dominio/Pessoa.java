@@ -19,7 +19,7 @@ public class Pessoa {
 
     public Pessoa(String nome) {
         System.out.println("Dentro  do construtor de Pessoa");
-        this.nome = nome;
+        setNome(nome);
     }
 
     public void imprime() {
@@ -51,6 +51,7 @@ public class Pessoa {
     }
 
     public void setEndereco(Endereco endereco) {
+
         this.endereco = endereco;
     }
 }

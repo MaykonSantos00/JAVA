@@ -1,4 +1,4 @@
-package POO.Menum.dominio;
+package POO.MenumAQUI.dominio;
 
 public class Cliente {
 

@@ -1,4 +1,4 @@
-package POO.FblocosinicializacaoAQUI.dominio;
+package POO.Fblocosinicializacao.dominio;
 
 public class Anime {
     private String nome;
@@ -21,14 +21,14 @@ public class Anime {
     }
 
     public Anime(String nome, int... ep) {
-        setNome(nome);
+        this(nome);
         setEp(ep);
     }
 
     public void imprime() {
         System.out.println(this.nome);
         for (int i : ep) {
-            System.out.println(i);
+            System.out.print(i + " ");
         }
     }
 

@@ -6,7 +6,7 @@ public class Carro {
     public final Comprador COMPRADOR = new Comprador();
 
     public Carro(String marca) {
-        this.marca = marca;
+        setMarca(marca);
     }
 
     public Comprador getCOMPRADOR() {
@@ -20,4 +20,5 @@ public class Carro {
     public void setMarca(String marca) {
         this.marca = marca;
     }
+
 }
