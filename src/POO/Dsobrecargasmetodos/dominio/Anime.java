@@ -6,19 +6,19 @@ public class Anime {
     private String genero;
 
     public void inicializacao(String nome, int ep) {
-        this.nome = nome;
-        this.ep = ep;
+        setNome(nome);
+        setEp(ep);
     }
 
     public void inicializacao(String nome, int ep, String genero) {
         this.inicializacao(nome, ep);
-        this.genero = genero;
+        setGenero(genero);
     }
 
     public void imprime() {
-        System.out.println("Nome do Anime: " + nome);
-        System.out.println("Tipo do Anime: " + ep);
-        System.out.println("Genero do Anime: " + genero);
+        System.out.println("Nome do Anime: " + getNome());
+        System.out.println("Tipo do Anime: " + getEp());
+        System.out.println("Genero do Anime: " + getGenero());
     }
 
     public String getNome() {
@@ -29,11 +29,19 @@ public class Anime {
         this.nome = nome;
     }
 
-    public int getTipo() {
+    public int getEp() {
         return ep;
     }
 
-    public void setTipo(int ep) {
+    public void setEp(int ep) {
         this.ep = ep;
+    }
+
+    public String getGenero() {
+        return genero;
+    }
+
+    public void setGenero(String genero) {
+        this.genero = genero;
     }
 }

@@ -1,4 +1,4 @@
-package POO.Fblocosinicializacao.dominio;
+package POO.FblocosinicializacaoAQUI.dominio;
 
 public class Anime {
     private String nome;
@@ -17,12 +17,12 @@ public class Anime {
     }
 
     public Anime(String nome) {
-        this.nome = nome;
+        setNome(nome);
     }
 
     public Anime(String nome, int... ep) {
-        this.nome = nome;
-        this.ep = ep;
+        setNome(nome);
+        setEp(ep);
     }
 
     public void imprime() {
@@ -38,6 +38,10 @@ public class Anime {
 
     public String getNome() {
         return nome;
+    }
+
+    public void setEp(int... ep) {
+        this.ep = ep;
     }
 
     public int[] getEp() {

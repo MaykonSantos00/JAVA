@@ -1,6 +1,6 @@
-package POO.Fblocosinicializacao.teste;
+package POO.FblocosinicializacaoAQUI.teste;
 
-import POO.Fblocosinicializacao.dominio.Anime;
+import POO.FblocosinicializacaoAQUI.dominio.Anime;
 
 public class AnimeTeste {
     public static void main(String[] args) {
