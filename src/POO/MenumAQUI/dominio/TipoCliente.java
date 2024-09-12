@@ -1,28 +1,27 @@
 package POO.MenumAQUI.dominio;
 
 public enum TipoCliente {
-    PESSOA_FISICA(1, "Pessoa Fisica"),
-    PESSOA_JURIDICA(2, "Pessoa Juridica");
+    PESSOA_FISICA(1, "Pessoa Física"),
+    PESSOA_JURIDICA(2, "Pessoa Jurídica");
 
     private int tipo;
-    private String relatorio;
+    private String Relatorio;
 
-    TipoCliente(int tipo, String relatorio) {
-        this.tipo = tipo;
-        this.relatorio = relatorio;
-    }
-
-    public static TipoCliente tipoClientePorNomeRelatorio(String nomeRelatorio) {
-        for (TipoCliente tipoCliente : values()) {
-            if (tipoCliente.getRelatorio().equals(nomeRelatorio)) {
-                return tipoCliente;
-            }
-        }
-        return null;
+    TipoCliente(int num, String relatorio) {
+        this.tipo = num;
+        this.Relatorio = relatorio;
     }
 
     public String getRelatorio() {
-        return relatorio;
+        return Relatorio;
+    }
+
+    public void setRelatorio(String relatorio) {
+        Relatorio = relatorio;
+    }
+
+    public void setTipo(int tipo) {
+        this.tipo = tipo;
     }
 
     public int getTipo() {
