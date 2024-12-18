@@ -21,7 +21,6 @@ public class Anime {
 
     public void imprime() {
         System.out.println("Nome do Anime: " + getNome());
-        System.out.println("Tipo do Anime: " + getEp());
         System.out.println("Genero do Anime: " + getGenero());
         System.out.println("Numero de episodios do Anime: " + getEp());
         System.out.println("Estudio do Anime: " + getEstudio());

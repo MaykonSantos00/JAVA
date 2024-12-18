@@ -6,7 +6,7 @@ public class CalculadoraTeste {
     public static void main(String[] args) {
         CalculadoraVoid calculadora = new CalculadoraVoid();
         calculadora.somaDoisNumeros();
-        System.out.println("--------------------------");
+        System.out.println("---------------------------");
         calculadora.subtraiDoisNumeros();
     }
 }
