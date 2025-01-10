@@ -17,31 +17,37 @@ public class Anime {
 
     public void imprime() {
         System.out.println("Nome do Anime: " + getNome());
-        System.out.println("Tipo do Anime: " + getEp());
+        System.out.println("Quantidade de episódios: " + getEp());
         System.out.println("Genero do Anime: " + getGenero());
     }
 
     public String getNome() {
+
         return nome;
     }
 
     public void setNome(String nome) {
+
         this.nome = nome;
     }
 
     public int getEp() {
+
         return ep;
     }
 
     public void setEp(int ep) {
+
         this.ep = ep;
     }
 
     public String getGenero() {
+
         return genero;
     }
 
     public void setGenero(String genero) {
+
         this.genero = genero;
     }
 }

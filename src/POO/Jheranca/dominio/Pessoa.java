@@ -26,8 +26,7 @@ public class Pessoa {
         if (this.endereco == null) return;
         System.out.println("Nome: " + nome);
         System.out.println("CPF: " + cpf);
-        System.out.println("Endereco: " + endereco.getRua());
-        System.out.println("Endereco: " + endereco.getNumero());
+        System.out.println("Endereco: " + endereco.getRua() + endereco.getNumero());
     }
 
     public String getNome() {

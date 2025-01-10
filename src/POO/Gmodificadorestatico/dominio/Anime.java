@@ -31,6 +31,7 @@ public class Anime {
 
 
     public Anime() {
+
         System.out.println("Dentro do construtor sem parametro");
     }
 
@@ -48,7 +49,7 @@ public class Anime {
     public void imprime() {
         System.out.println(getNome());
         for (int i : ep) {
-            System.out.println(i);
+            System.out.print(i + " ");
         }
     }
 

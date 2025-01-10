@@ -1,9 +1,11 @@
 package POO.Bintroducaometodos.teste;
 
 import POO.Bintroducaometodos.dominio.Estudante;
+import POO.Bintroducaometodos.dominio.Impressora;
 
 public class EstudanteTeste {
     public static void main(String[] args) {
+        Impressora imp1 = new Impressora();
         Estudante est1 = new Estudante();
         Estudante est2 = new Estudante();
 

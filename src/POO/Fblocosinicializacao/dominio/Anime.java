@@ -9,6 +9,7 @@ public class Anime {
     // 3 - Bloco de inicialização é executado
     // 4 - Construtor é executado
     {
+        System.out.println("Dentro do Bloco de inicialização");
         ep = new int[100];
         for (int i = 0; i < ep.length; i++) {
             ep[i] = i + 1;
@@ -17,6 +18,7 @@ public class Anime {
     }
 
     public Anime(String nome) {
+
         setNome(nome);
     }
 
@@ -26,17 +28,20 @@ public class Anime {
     }
 
     public void imprime() {
-        System.out.println(this.nome);
+
+        System.out.println("\nDentro da \"Impressora\"\n" + this.nome);
         for (int i : ep) {
             System.out.print(i + " ");
         }
     }
 
     public void setNome(String nome) {
+
         this.nome = nome;
     }
 
     public String getNome() {
+
         return nome;
     }
 
@@ -45,6 +50,7 @@ public class Anime {
     }
 
     public int[] getEp() {
+
         return ep;
     }
 }

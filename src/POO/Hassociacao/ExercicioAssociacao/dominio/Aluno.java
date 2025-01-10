@@ -5,32 +5,17 @@ public class Aluno {
     private int idade;
     private Seminario seminario;
 
-    public Aluno(String nome, int idade) {
-        setNome(nome);
-        setIdade(idade);
-    }
-
-    public void imprime() {
-        if (seminario == null) return;
-        System.out.println("Nome : " + getNome());
-        System.out.println("Idade : " + getIdade());
-        System.out.println("Seminario : " + getSeminario().getTitulo());
-    }
-
-    public void setNome(String nome) {
+    public Aluno(String nome, int idade, Seminario seminario) {
         this.nome = nome;
-    }
-
-    public String getNome() {
-        return this.nome;
-    }
-
-    public void setIdade(int idade) {
         this.idade = idade;
-    }
+        setSeminario(seminario);
+    };
 
-    public int getIdade() {
-        return this.idade;
+    public void imprimir() {
+        if (seminario == null) return;
+        System.out.println("Nome: " + getNome());
+        System.out.println("Idade: " + getIdade());
+        System.out.println("Seminário-Titulo: " + getSeminario().getTitulo());
     }
 
     public Seminario getSeminario() {
@@ -39,5 +24,21 @@ public class Aluno {
 
     public void setSeminario(Seminario seminario) {
         this.seminario = seminario;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
     }
 }

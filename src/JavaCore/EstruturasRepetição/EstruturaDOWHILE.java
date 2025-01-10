@@ -2,10 +2,11 @@ package JavaCore.EstruturasRepetição;
 
 public class EstruturaDOWHILE {
     public static void main(String[] args) {
-        int cout = 0;
+
+        int count = 0;
         do {
-            System.out.println("Debtro do DO-WHILE");
-            ++cout;
-        } while (cout < 10);
+            System.out.println("Dentro do DO-WHILE");
+            ++count;
+        } while (count < 10); //enquanto à condição for verdadeira, o DO-WHILE executa!
     }
 }

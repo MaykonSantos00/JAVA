@@ -2,7 +2,7 @@ package JavaCore.EstruturasCondicionais;
 
 public class EstruturasELSEIF {
     public static void main(String[] args) {
-        int idade = 15;
+        int idade = 10;
         String categoria;
 
         if (idade < 15) {

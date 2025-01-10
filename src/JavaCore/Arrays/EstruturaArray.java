@@ -8,6 +8,6 @@ public class EstruturaArray {
         System.out.println(idades[0]);
 
         int[] idades2 = {1, 2, 3, 4, 5};
-        System.out.println(idades2[0]);
+        System.out.println(idades2[4]);
     }
 }

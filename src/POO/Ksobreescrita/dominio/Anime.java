@@ -12,6 +12,8 @@ public class Anime {
         return nome = "nome: " + nome;
     }
 
+
+
     public String getNome() {
         return nome;
     }

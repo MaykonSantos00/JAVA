@@ -9,12 +9,12 @@ public class Operadores {
         System.out.println(a + b + " : Valor");
 
         // (%)
-        int resto = 20 % 2;
+        int resto = 21 % 2;
         System.out.println(resto + " : Valor");
 
         // (< > <= >=  != ==) - OPERADORES RELACIONAIS
-        boolean isDezMAiorQueVinte = (10 > 20);
-        System.out.println("Dez Maior que vinte? " + isDezMAiorQueVinte);
+        boolean isDezMaiorQueVinte = (10 > 20);
+        System.out.println("Dez Maior que vinte? " + isDezMaiorQueVinte);
 
         // (&&-(AND)  ||-(OR) !-(NOT)) - OPERADORES LOGICOS
 

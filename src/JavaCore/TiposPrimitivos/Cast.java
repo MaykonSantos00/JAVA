@@ -5,6 +5,7 @@ public class Cast {
 
         long number = 4000000000L;
         int number2 = (int) 4000000000000L;
+        System.out.println(number2);
         // o cast, ocorre quando você atribui um valor de um tipo de dados primitivo a outro tipo.
     }
 }

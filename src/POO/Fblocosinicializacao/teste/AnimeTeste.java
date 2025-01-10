@@ -8,7 +8,7 @@ public class AnimeTeste {
 
         anime.imprime();
 
-        System.out.println("\n");
+        System.out.println("\nDentro do Foreach");
         for (int i : anime.getEp()) {
             System.out.print(i + " ");
         }

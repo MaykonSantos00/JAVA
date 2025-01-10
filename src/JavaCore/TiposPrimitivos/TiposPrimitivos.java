@@ -4,7 +4,7 @@ public class TiposPrimitivos {
     public static void main(String[] args) {
         //long, int, short, double, float, char, byte, boolean
 
-        // Por padrão, Os dados numericos são do tipo int, caso seja inteiro, e double caso seja, decimal.
+        // Por padrão, Os dados numéricos são do tipo int, caso seja inteiro, e double caso seja, decimal.
 
         long bigNumber = 30000000000L; // L no final, é para representar que é um dado do tipo Long
         int number = 30000;
@@ -12,12 +12,12 @@ public class TiposPrimitivos {
         byte numberByte = 34;
 
         double numberDouble = 3400.0;
-        float numberFloat = 3400.0F; // F no final é para indentificar que o dado é do tipo Float.
+        float numberFloat = 3400.0F; // F no final é para identificar que o dado é do tipo Float.
 
         char numberChar = 34;
         char numberChar2 = 'b';
-        // caso seja posto aspas simples('') e um caractere dentro dele, será impresso o própio
-        // caráctere. Caso seja posto um valor numerico, ele fará referencia à uma tabela(ascii), onde o valor
+        // caso seja posto aspas simples('') e um caractere dentro dele, será impresso o próprio
+        // caractere. Caso seja posto um valor numerico, ele fará referencia à uma tabela(ascii), onde o valor
         // representa um caractere
 
         boolean numberBoolean = true; // é um dado lógico, que representa verdadeiro ou falso;

@@ -12,5 +12,8 @@ public class ClienteTeste {
 
         System.out.println(cliente1);
         System.out.println(cliente2);
+
+        TipoCliente tipoCliente = TipoCliente.getTipoCliente("Pessoa Física");
+        System.out.println(tipoCliente);
     }
 }

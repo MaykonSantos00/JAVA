@@ -2,8 +2,10 @@ package JavaCore.EstruturasCondicionais;
 
 public class EstruturasSWITCH {
     public static void main(String[] args) {
+
         // char , int , byte , enum , String
-        byte dia = 2;
+
+        byte dia = 6;
         switch (dia) {
             case 1:
                 System.out.println("Domingo");
@@ -30,6 +32,7 @@ public class EstruturasSWITCH {
                 System.out.println("Dia inválido");
                 break;
         }
+
         char sexo = 'M';
         switch (sexo) {
             case 'M':
