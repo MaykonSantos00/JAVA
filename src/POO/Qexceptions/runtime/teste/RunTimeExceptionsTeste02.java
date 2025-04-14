@@ -2,9 +2,12 @@ package POO.Qexceptions.runtime.teste;
 
 public class RunTimeExceptionsTeste02 {
     public static void main(String[] args) {
-        divisao(1, 0);
+        try{
+            divisao(1, 0);
+        }catch(IllegalArgumentException e){
+            e.printStackTrace();
+        }
     }
-
     /**
      * @param a
      * @param b Não pode ser zero
@@ -17,4 +20,5 @@ public class RunTimeExceptionsTeste02 {
         }
         return a / b;
     }
+
 }

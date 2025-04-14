@@ -9,11 +9,8 @@ public interface DataLoader {
         System.out.println("Removendo");
     }
 
-    ;
-
     public static void retriveMaxDataSize() {
         System.out.println("Retriveendo");
     }
 
-    ;
 }
