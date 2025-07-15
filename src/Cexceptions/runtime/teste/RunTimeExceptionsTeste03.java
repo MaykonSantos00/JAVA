@@ -18,6 +18,7 @@ public class RunTimeExceptionsTeste03 {
         }
     }
 
+    // O try-finally não é utilizado. Só fiz para fins de apredizagem
     public static void abreConexaoComBancodeDados2() {
         try {
             System.out.println("Abre conexão com o banco de dados");

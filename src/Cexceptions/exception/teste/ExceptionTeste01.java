@@ -9,10 +9,10 @@ public class ExceptionTeste01 {
     }
 
     public static void criarNovoArquivo() {
-        File file = new File("JAVA/Arquivo\\arquivo.txt");
+        File file = new File("arquivo\\arquivo.txt");
         try {
             boolean isCriado = file.createNewFile();
-            System.out.println("arquivo criado " + isCriado);
+            System.out.println("arquivo criado: " + isCriado);
         } catch (IOException e) {
             e.printStackTrace();
         }
