@@ -12,8 +12,7 @@ public class TryWithResourcesTest01 {
 
     public static void lerArquivo() {
         try (Leitor2 leitor2 = new Leitor2();
-             Leitor1
-                     leitor1 = new Leitor1()) {
+             Leitor1 leitor1 = new Leitor1()) {
 
         } catch (IOException e) {
 

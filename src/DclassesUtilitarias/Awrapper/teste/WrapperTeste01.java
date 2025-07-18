@@ -5,14 +5,14 @@ public class WrapperTeste01 {
         //Wrapper são objetos que vão encapsular os tipos primitivos ou
         //Classes/Objetos que representão os tipos primitivos
 
-        byte bytep = 1;
-        short shortp = 1;
-        int intp = 1;
-        long longp = 1;
-        float floatp = 1;
-        double doublep = 1;
-        char charp = 'W';
-        boolean boolp = true;
+        byte byteP = 1;
+        short shortP = 1;
+        int intP = 1;
+        long longP = 1;
+        float floatP = 1;
+        double doubleP = 1;
+        char charP = 'W';
+        boolean boolP = true;
 
 
         Byte byteW = 1;
@@ -28,7 +28,7 @@ public class WrapperTeste01 {
         Integer intW2 = 1;
 
         //boxing
-        int intp2 = intW2;
+        int intP2 = intW2;
 
         Integer intW3 = Integer.parseInt("9");
         System.out.println(intW3);
